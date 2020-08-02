@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #003956;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="ZeroZero" layoutX="174.0" layoutY="60.0" mnemonicParsing="false" onAction="#ZeroZeroButton" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #0194DE;" />
+      <Button fx:id="ZeroOne" layoutX="261.0" layoutY="60.0" mnemonicParsing="false" onAction="#ZeroOneButton" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #0194DE;" />
+      <Button fx:id="ZeroTwo" layoutX="348.0" layoutY="60.0" mnemonicParsing="false" onAction="#ZeroTwoButton" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #0194DE;" />
+      <Button fx:id="OneZero" layoutX="174.0" layoutY="149.0" mnemonicParsing="false" onAction="#OneZeroButton" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #0194DE;" />
+      <Button fx:id="OneOne" layoutX="261.0" layoutY="149.0" mnemonicParsing="false" onAction="#OneOneButton" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #0194DE;" />
+      <Button fx:id="OneTwo" layoutX="348.0" layoutY="149.0" mnemonicParsing="false" onAction="#OneTwoButton" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #0194DE;" />
+      <Button fx:id="TwoZero" layoutX="174.0" layoutY="239.0" mnemonicParsing="false" onAction="#TwoZeroButton" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #0194DE;" />
+      <Button fx:id="TwoOne" layoutX="261.0" layoutY="239.0" mnemonicParsing="false" onAction="#TwoOneButton" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #0194DE;" />
+      <Button fx:id="TwoTwo" layoutX="348.0" layoutY="239.0" mnemonicParsing="false" onAction="#TwoTwoButton" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #0194DE;" />
+      <Label layoutX="14.0" layoutY="4.0" text="TicTacToe" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="ready" layoutX="21.0" layoutY="48.0" mnemonicParsing="false" onAction="#ReadyUp" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: #0194DE;" text="Ready" />
+      <Label fx:id="ZeroZeroX" layoutX="202.0" layoutY="80.0" text="X" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="ZeroOneX" layoutX="289.0" layoutY="80.0" text="X" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="ZeroTwoX" layoutX="375.0" layoutY="80.0" text="X" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="OneZeroX" layoutX="202.0" layoutY="163.0" text="X" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="OneOneX" layoutX="288.0" layoutY="163.0" text="X" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="OneTwoX" layoutX="375.0" layoutY="163.0" text="X" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="TwoZeroX" layoutX="202.0" layoutY="253.0" text="X" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="TwoOneX" layoutX="288.0" layoutY="253.0" text="X" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="TwoTwoX" layoutX="375.0" layoutY="253.0" text="X" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="ZeroZeroY" layoutX="203.0" layoutY="80.0" text="O" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="ZeroOneY" layoutX="292.0" layoutY="80.0" text="O" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="ZeroTwoY" layoutX="376.0" layoutY="80.0" text="O" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="OneZeroY" layoutX="203.0" layoutY="163.0" text="O" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="OneOneY" layoutX="289.0" layoutY="163.0" text="O" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="OneTwoY" layoutX="376.0" layoutY="163.0" text="O" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="TwoZeroY" layoutX="205.0" layoutY="253.0" text="O" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="TwoOneY" layoutX="289.0" layoutY="253.0" text="O" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="TwoTwoY" layoutX="376.0" layoutY="253.0" text="O" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="remove" layoutX="161.0" layoutY="49.0" prefHeight="280.0" prefWidth="282.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="280.0" prefWidth="290.0" style="-fx-background-color: #003956;" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="ready1" layoutX="21.0" layoutY="80.0" mnemonicParsing="false" onAction="#resetGame" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: #0194DE;" text="Reset" />
+   </children>
+</AnchorPane>
